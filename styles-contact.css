@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1B1B1B;
+    font-family: Roboto;
+}
+
+nav {
+    align-items: center;
+    background-color: #202020;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 46px 140px;
+}
+
+nav ul {
+    align-items: center;
+    display: flex;
+    gap: 50px;
+}
+
+nav ul * {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.5ms ease-in-out;
+}
+
+nav a:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+h1 {
+    color: white;
+    font-size: 72px;
+    font-weight: 700;
+    margin-top: 77px;
+    margin-bottom: 69px;
+    line-height: 84px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main {
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.address, .email, .phone {
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 100%;
+}
+
+.address img {
+    height: 15.33px;
+    margin-right: 12px;
+    width: 12.36px;
+}
+
+.email img {
+    height: 15.33px;
+    margin-right: 12px;
+    width: 15.73px;
+}
+
+.phone img {
+    height: 15.33px;
+    margin-right: 12px;
+    width: 15.73px;
+}
+
+h5 {
+    color: rgba(246, 82, 130, 1);
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+footer {
+    align-items: center;
+    background-color: rgba(40, 35, 35, 1);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 140px;
+}
+
+footer .logo {
+    height: 24.75px;
+    width: 150px;
+}
+
+.socials {
+    display: flex;
+    font-family: Font Awesome 5 Brands;
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: space-between;
+    line-height: 18px;
+    letter-spacing: 0em;
+    width: 102px;
+}
+
+footer .rights {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+}
+
+footer a:hover {
+    cursor: pointer;
+    opacity: 0.4;
+}
